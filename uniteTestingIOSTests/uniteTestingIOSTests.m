@@ -37,4 +37,8 @@
     }];
 }
 
+- (void)testAddition {
+    XCTAssert(2 + 2 == 4,@"2+2 should be 4,retured %d",2+2);
+}
+
 @end
